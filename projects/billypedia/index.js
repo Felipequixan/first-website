@@ -2,7 +2,8 @@
 $(document).ready(function() {
     $.getJSON('data.json', function (data) {
         // YOUR CODE BELOW HERE //
-        
+        $('div').css('color', 'red');
+
         // uncomment this to inspect all available data; delete when done //
         // console.log(data);
         
